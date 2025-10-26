@@ -24,6 +24,7 @@
     "b402-facilitator", 
     "b402-test-example.ts", 
     "b402-testnet-tests.ts", 
+    "deploy-erc8004.sh", 
     "demo-output.log", 
     "build-and-test.sh", 
     "contracts", 
