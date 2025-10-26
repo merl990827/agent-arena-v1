@@ -17,18 +17,15 @@
     "paths": {"@/*": ["./*"]},
     "target": "ES2020"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts", 
+    "app/**/*.ts", 
+    "app/**/*.tsx", 
+    "public/**/*.ts", 
+    "public/**/*.tsx", 
+    ".next/types/**/*.ts"
+  ],
   "exclude": [
-    "node_modules", 
-    "apps", 
-    "b402-facilitator", 
-    "b402-test-example.ts", 
-    "b402-testnet-tests.ts", 
-    "deploy-erc8004.sh", 
-    "demo-output.log", 
-    "build-and-test.sh", 
-    "contracts", 
-    "lib", 
-    "packages"
+    "node_modules"
   ]
 }
