@@ -25,7 +25,7 @@ export function Footer() {
         
         {/* 1. Copyright Text */}
         <p className="text-text-muted text-sm">
-          &copy; {currentYear} NeuraPay. All rights reserved.
+          &copy; {currentYear} Sera AI. All rights reserved.
         </p>
 
         {/* 2. Social Media Icons */}
