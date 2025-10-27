@@ -8,7 +8,7 @@ import { Footer } from './components/Footer'; // 👈 Import the new component
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'NeuraPay - On-chain Bounties',
+  title: 'Sera AI - On-chain Bounties',
   description: 'On-chain bounties powered by verified agents',
   viewport: 'width=device-width, initial-scale=1',
 };

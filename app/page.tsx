@@ -330,7 +330,7 @@ export default function ClipperVersePage() {
         {/* Header */}
         <div className="flex items-center justify-between mb-8">
           <div>
-            <h1 className="text-4xl font-bold text-gradient mb-2">NeuraPay</h1>
+            <h1 className="text-4xl font-bold text-gradient mb-2">Sera AI</h1>
             <p className="text-text-muted">On-chain bounties powered by verified agents</p>
           </div>
           
