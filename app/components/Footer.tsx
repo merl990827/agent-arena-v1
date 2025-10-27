@@ -5,19 +5,14 @@ import { Github, Twitter, Linkedin } from 'lucide-react';
 // Define the social links structure
 const socialLinks = [
   { 
-    name: 'GitHub', 
-    icon: Github, 
-    href: 'YOUR_GITHUB_LINK', // 👈 Update this link
-  },
-  { 
     name: 'Twitter', 
     icon: Twitter, 
-    href: 'YOUR_TWITTER_LINK', // 👈 Update this link
-  },
+    href: 'https://x.com/flava0x?s=21', // 👈 Update this link
+  },  
   { 
-    name: 'LinkedIn', 
-    icon: Linkedin, 
-    href: 'YOUR_LINKEDIN_LINK', // 👈 Update this link
+    name: 'GitHub', 
+    icon: Github, 
+    href: 'https://github.com/NeuraPay/NeuraAI', // 👈 Update this link
   },
 ];
 
@@ -30,7 +25,7 @@ export function Footer() {
         
         {/* 1. Copyright Text */}
         <p className="text-text-muted text-sm">
-          &copy; {currentYear} ClipperVerse. All rights reserved.
+          &copy; {currentYear} NeuraPay. All rights reserved.
         </p>
 
         {/* 2. Social Media Icons */}
