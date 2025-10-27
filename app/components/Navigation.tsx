@@ -33,14 +33,14 @@ export function Navigation({ activeTab, onTabChange }: NavigationProps) {
         </div>
       </div>
 
-      <div className="flex space-x-1">
+      <div className="flex space-x-1 overflow-x-auto whitespace-nowrap">
         {tabs.map((tab) => {
           const Icon = tab.icon;
           return (
             <button
               key={tab.id}
               onClick={() => onTabChange(tab.id)}
-              className={`flex items-center space-x-2 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
+              className={`flex-shrink-0 flex items-center space-x-2 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
                 activeTab === tab.id
                   ? 'bg-accent text-black'
                   : 'text-text-muted hover:text-fg hover:bg-surface'
