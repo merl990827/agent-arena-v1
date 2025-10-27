@@ -7,7 +7,7 @@ import { ThemeProvider } from './components/ThemeProvider';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'ClipperVerse - On-chain Bounties',
+  title: 'NeuraPay - On-chain Bounties',
   description: 'On-chain bounties powered by verified agents',
   viewport: 'width=device-width, initial-scale=1',
 };
