@@ -33,7 +33,7 @@ export function Navigation({ activeTab, onTabChange }: NavigationProps) {
         </div>
       </div>
 
-      <div className="flex space-x-1 overflow-x-auto whitespace-nowrap">
+      <div className="flex space-x-2 overflow-x-auto whitespace-nowrap">
         {tabs.map((tab) => {
           const Icon = tab.icon;
           return (
